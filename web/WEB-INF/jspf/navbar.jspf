@@ -1,0 +1,8 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<h2>
+    <a href="index.jsp">ÍNDICE</a>
+    || <a href="customers.jsp">Clientes</a>
+    || <a href="manufacturer.jsp">Fabricantes</a>
+</h2>
+<hr/>
