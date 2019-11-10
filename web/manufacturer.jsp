@@ -26,7 +26,8 @@
             <%try{%>
                 <%for(Manufacturer m: Manufacturer.getList()){%>
                 <tr>
-                    <td><a href="index.jsp"> <%= m.getId()%></a></td>
+                    <%int id = m.getId();%>
+                    <td><a href="produtos.jsp?id=<%=id%>"> <%= m.getId()%></a></td>
                     <td><%= m.getName() %></td>
                     <td><%= m.getEmail() %></td>
                     <td><%= m.getCidade() %></td>

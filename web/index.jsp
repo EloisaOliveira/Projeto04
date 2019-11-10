@@ -16,6 +16,5 @@
         <h1>Índice</h1>
         <h2><a href="customers.jsp">Clientes</a></h2>
         <h2><a href="manufacturer.jsp">Fabricantes</a></h2>
-        <h2><a href="#">Fornecedores</a></h2>
     </body>
 </html>
