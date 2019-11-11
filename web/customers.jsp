@@ -6,6 +6,8 @@
 
 <%@page import="br.com.fatecpg.db.Customers"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,7 +26,8 @@
             <%try{%>
                 <%for(Customers c: Customers.getList()){%>
                 <tr>
-                    <td><%= c.getId() %></td>
+                    <%int id = c.getId();%>
+                    <td><a href="listaCompra.jsp?id=<%=id%>"><%= c.getId() %></a></td>
                     <td><%= c.getName() %></td>
                     <td><%= c.getEmail() %></td>
                 </tr>
